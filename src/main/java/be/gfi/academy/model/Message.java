@@ -19,6 +19,8 @@ public class Message {
 	private String message;
 
 	public Message() {
+		id = -1; // empty
+		message = "";
 	}
 
 	public Message(long id, String msg) {
